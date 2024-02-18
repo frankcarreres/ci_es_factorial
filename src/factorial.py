@@ -9,7 +9,7 @@ def factorial(num):
     """
     if not isinstance (num,int):
         raise TypeError ("Introdueix un número la proxima vegada")
-    if num==1 or num==0:
+    if num==1:
         return 1
     if num < 0:
         raise ValueError ("El número es negatiu")
